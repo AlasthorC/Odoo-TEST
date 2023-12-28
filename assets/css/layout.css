@@ -1,0 +1,35 @@
+/* Estilos de estruturas y generales*/
+
+/* Colores de fuentes */
+.fcol-01{ color: #FFFFFF; } /* blanco */
+.fcol-02{ color: #038aff; } /* azul celeste */
+.fcol-03{ color: #161348; } /* azul marino */
+.fcol-04{ color: #febd3d; } /* amarillo */
+.fcol-05{ color: #728097; } /* gris */
+
+/* Colores de fuentes */
+.bg-01{ background: #FFFFFF; } /* blanco */
+.bg-02{ background: #038aff; color:#FFFFFF;} /* azul celeste */
+.bg-03{ background: #161348; color:#FFFFFF;} /* azul marino */
+.bg-04{ background: #febd3d; color:#FFFFFF;} /* amarillo */
+.bg-05{ background: #728097; } /* gris */
+.bg-05{ background: url('../img/bg-cc.png') center center; background-size: cover; color:#FFFFFF!important;} /* purple */
+
+.ff-01{font-family: 'Nunito Sans', sans-serif;}
+.ff-02, .title-f{font-family: 'Nunito', sans-serif;}
+
+.fz-01{font-size: 86px;}
+.fz-01 span{font-size: 0.5em;}
+.fz-02{font-size: 65px;}
+.fz-02 span{font-size: 0.5em;}
+.fz-03{font-size: 49px;}
+.fz-03 span{font-size: 0.5em;}
+.fz-04{font-size: 37px;}
+.fz-04 span{font-size: 0.5em;}
+.fz-05{font-size: 28px;}
+.fz-05 span{font-size: 0.5em;}
+.fz-06{font-size: 21px;}
+.fz-06 span{font-size: 0.5em;}
+
+.fwb{font-weight: 600;}
+.fwi{font-weight: 100;}

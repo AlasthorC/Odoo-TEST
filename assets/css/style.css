@@ -3,6 +3,82 @@
 .navbar-brand{display: block; text-indent: -999999px; background: url('../img/odoo-white.svg')no-repeat center center; width: 150px;}
 nav{border-bottom:1px solid rgba(255,255,255,0.3);}
 /* Detallees tarjetas header */
-.credit-card{color: #ffffff; margin: 30px 0; padding: 35px; border-radius:15px;}
+.card-head{ border-radius: 20px 20px 100px 20px; }
+.credit-card{color: #ffffff; margin: 30px 0; padding: 20px 35px; border-radius:15px;}
 .card-ex{width: 450px;}
 .more-cards{display: inline-block; border-bottom: dashed 1px #038aff;}
+
+.to-do-list{width: 70%; margin-top: 30%}
+.media-ex{position: relative;}
+
+section{padding-top: 50px;}
+section#tools .vidview{ width: 60%; height: 280px;  position: absolute; top: -20%; right: 0; padding: 20px; border-radius: 20px; z-index: 1;background: url('../img/img_01.jpg') no-repeat center center; background-size: cover;}
+#features{background: url('../img/secbg-02.png')no-repeat; background-size: 250px; background-position: 50% -10%;}
+section#features .vidview{ width: 100%; height: 400px;  position: absolute; top: -20%; right: 0; padding: 20px; border-radius: 20px; z-index: 1;background: url('../img/img_02.jpg') no-repeat center center; background-size: cover;}
+#technology{background: url('../img/secbg-03.png')no-repeat; background-size: 230px; background-position: 55% -10%;}
+section#install .vidview{ width: 100%; height: 400px;  position: absolute; top: -20%; right: 0; padding: 20px; border-radius: 20px; z-index: 1;background: url('../img/img_03.jpg') no-repeat center center; background-size: cover;}
+#install{background: url('../img/secbg-02.png')no-repeat; background-size: 210px; background-position: 50% -10%;}
+#solutions{background: url('../img/secbg-03.png')no-repeat; background-size: 210px; background-position: 55% -10%;}
+.vidview .btn{border: none!important}
+
+
+.sec-badge{padding: 10px 20px; font-size: 18px;}
+.name-badge{padding: 10px 9px;font-size: 12px;}
+.name-badge-i{padding: 10px 9px;font-size: 17px; margin-top: 14px;}
+.sec-badge01{background-color: #fdbe3d; color:#FFFFFF;}
+.sec-badge02{background-color: #5ccaa7; color:#FFFFFF;}
+.sec-badge03{background-color: #fff; color:#FFFFFF;}
+
+.users-ui{ display: inline-block;text-align: center; }
+.user{display: inline-block;margin: 0 -10px;}
+.user img{ border:  solid 2px #FFFFFF; }
+
+.top-shade{ height: 2px;
+	width: 100%;
+	background: rgb(255,255,255);
+background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(208,208,208,1) 40%, rgba(208,208,208,1) 60%, rgba(255,255,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(208,208,208,1) 40%, rgba(208,208,208,1) 60%, rgba(255,255,255,1) 100%);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(208,208,208,1) 40%, rgba(208,208,208,1) 60%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);}
+.top-shade2{ height: 1px;
+	width: 60%;
+	margin: 0 auto;
+	opacity: 0.23;
+	background: rgb(255,255,255);
+background: -moz-linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+background: -webkit-linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);}
+.lesicons{display: block; text-align: center; width: 80%; margin: 0 auto;}
+.leicon{display: inline-block;}
+
+.les-stores{display: flex;}
+.store{width: 200px; height: 62px; background: #000; margin-right:40px; display: block;text-indent: -999999px; padding: 10px; border-radius: 10px;}
+.store.apple{ background: url('../img/appStore-btn.png') no-repeat center center; background-size: 100%; }
+.store.google{ background: url('../img/playStore-btn.png') no-repeat center center; background-size: 100%; }
+
+.leban{padding: 6em; border-radius: 0 100px;}
+
+.award-more{ color: #0c0c0c;  display: block; width: 90px; margin: 0 auto; border-bottom: 2px solid #0c0c0c;}
+.award-more:hover{color: #0c0c0c; text-decoration: none;}
+
+#awards .card.linked{transform: translateY(0); cursor: pointer; transition: all ease-in-out 300ms;}
+#awards .card.linked:hover{background: #febd3d; color:#FFFFFF;}
+button.carousel-control-prev {position: absolute;left: -15%;}
+button.carousel-control-next {position: absolute;right: -15%;}
+
+span.opensesame {display: inline-block; position: absolute; right: 20px;}
+
+footer{ font-size: 13px; }
+.rrss a:hover{ color: #FFFFFF; opacity: 1;}
+
+@media screen and (max-width: 767px) and (min-width: 0){
+	.credit-card{color: #ffffff; margin: 30px 0; padding: 10px 20px; border-radius:15px;}
+	.to-do-list{width: 100%; margin-top: 0%}
+	section#tools .vidview{position: static; width: 100%; height: 250px; padding: 20px; margin-bottom: 20px; }
+	section{ background: none!important; }
+	section#features .vidview{margin-top: 20px; background-size: cover; position: relative;}
+	section#install .vidview{ margin-top: 20px; background-size: cover; position: relative;}
+	.store{width: 160px; height: 50px; background: #000; margin-right:20px; display: block;text-indent: -999999px; padding: 10px; border-radius: 10px; margin-bottom: 30px;}
+	#awards{background: #fafbff!important;}
+}

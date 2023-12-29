@@ -70,7 +70,7 @@ button.carousel-control-next {position: absolute;right: -15%;}
 span.opensesame {display: inline-block; position: absolute; right: 20px;}
 
 footer{ font-size: 13px; }
-.rrss a:hover{ color: #FFFFFF; opacity: 1;}
+footer a:hover{ color: #FFFFFF; opacity: 1; text-decoration: none;}
 
 @media screen and (max-width: 767px) and (min-width: 0){
 	.credit-card{color: #ffffff; margin: 30px 0; padding: 10px 20px; border-radius:15px;}
